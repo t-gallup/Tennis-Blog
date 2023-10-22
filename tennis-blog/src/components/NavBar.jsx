@@ -5,10 +5,10 @@ export default function NavBar() {
   <div className="navbar">
     <ul>
       <li>
-        <a href='../pages/home'>Home</a>
+        <a href='/'>Home</a>
       </li>
       <li>
-        <a href='../pages/article'>Article</a>
+        <a href='/article'>Article</a>
       </li>
     </ul>
   </div>
