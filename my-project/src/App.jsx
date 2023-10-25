@@ -41,9 +41,11 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <NavBar />
-      <RouterProvider router={router} />
-      <p className="underline">Test</p>
+      <div className="bg-black">
+        <NavBar />
+        <RouterProvider router={router} />
+      </div>
+      
     </>
   );
 }

@@ -25,28 +25,6 @@ function NavBar() {
         </li>
       </ul>
     </div>
-  // <div classNameName="navbar">
-  //   <ul>
-  //     <li>
-  //       <a href='/'>Home</a>
-  //     </li>
-  //     <li>
-  //       <a href='/atp'>ATP</a>
-  //     </li>
-  //     <li>
-  //       <a href='/wta'>WTA</a>
-  //     </li>
-  //     <li>
-  //       <a href='/college'>College</a>
-  //     </li>
-  //     <li>
-  //       <a href='/about-us'>About Us</a>
-  //     </li>
-  //     <li>
-  //       <a href='/contact-us'>Contact Us</a>
-  //     </li>
-  //   </ul>
-  // </div>
   );
 }
 

@@ -1,8 +1,7 @@
-/* eslint-disable react/prop-types */
 
 function GenericSite({title, content}) {
   return (
-    <div>
+    <div className="p-5 text-center">
       <h1>{title}</h1>
       <p>{content}</p>
     </div>
