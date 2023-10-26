@@ -10,9 +10,6 @@ function ArticleListings({title, catagory, image}) {
         <FeaturedBlog category={catagory} title={title} author="Author" date="Date Posted" image={image}/>
         <FeaturedBlog category={catagory} title={title} author="Author" date="Date Posted" image={image}/>
         </div>
-        <div className="bg-white w-2">
-
-        </div>
         <div className="">
         <FeaturedBlog category={catagory} title={title} author="Author" date="Date Posted" image={image} />
         <FeaturedBlog category={catagory} title={title} author="Author" date="Date Posted" image={image}/>

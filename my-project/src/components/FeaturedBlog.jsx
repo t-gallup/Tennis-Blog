@@ -1,7 +1,7 @@
 
 function FeaturedBlog({category, title, author, date, image}) {
   return (
-    <div className="flex border-2">
+    <div className="flex border-2 m-4">
       <div className="p-5">
         <h5 className="text-center">{category}</h5>
         <h3 className="text-center">{title} | {author} | {date} </h3>
