@@ -6,7 +6,7 @@ function NavBar() {
     <div className="navbar w-full h-10vh sticky top-0 bg-gray-700">
       <ul className="flex flex-row items-center justify-between list-none p-4">
         <li className="mr-4">
-          <a href='/' className="no-underline">Home</a>
+          <a href='/' className="text-white no-underline">Home</a>
         </li>
         <li className="mr-4">
           <a href='/atp' className="text-white no-underline">ATP</a>

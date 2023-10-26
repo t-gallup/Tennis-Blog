@@ -3,7 +3,7 @@ import FeaturedBlog from "../components/FeaturedBlog";
 function ArticleListings({title, catagory, image}) {
   return (
     <div className="p-5">
-      <h1 className="text-center pb-5">{title}</h1>
+      <h1 className="text-center pb-5 ">{title}</h1>
       <div className="flex justify-center">
         <div className="">
         <FeaturedBlog category={catagory} title={title} author="Author" date="Date Posted" image={image}/>
