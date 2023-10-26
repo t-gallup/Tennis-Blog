@@ -1,9 +1,10 @@
 
 
-function Article() {
+function Article({category, title, author, date, image}) {
   return (
     <div>
-      Article
+      <h1 className="text-center">{title}</h1>
+      <h3 className="text-center">{category} | {author} | date</h3>
     </div>
   )
 }
